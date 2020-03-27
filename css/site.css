@@ -1,0 +1,160 @@
+a {
+    color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+    color: black;
+}
+
+h1 {
+    font-family: arial;
+}
+
+h2 {
+    font-family: arial;
+}
+
+
+h3 {
+    font-family: arial;
+}
+
+
+img {
+  margin: 5px
+}
+
+p {
+    font-family: arial;
+}
+
+.smalltext {
+  font-size: 10px;
+    font-family: arial
+}
+
+.bodyitem {
+  margin: 0px;
+  padding:0px;
+font-family: arial
+}
+
+header {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    font-family: arial;
+    background-image: linear-gradient(#CDD6E1, white);
+}
+
+
+.centeralign {
+    text-align: CENTER;
+    
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.leftalign {
+    text-align: left;
+}
+
+.container {
+  padding: 0px;
+  margin: 0px;
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.col {
+  padding: 0px;
+  margin: 0px;
+}
+
+.leftpad {
+    padding-left: 20px;
+}
+
+.rightpad {
+    padding-right: 20px;
+}
+
+.singlepad {
+    padding-top: 12px;
+    padding-bottom; 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.doublepad {
+    padding-top: 4px;
+    padding-bottom; 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table {
+  border: 1px solid black;
+    padding: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+th {
+  border: 1px solid black;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+
+td {
+  border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+}
+
+li {
+  font-size: 11px;
+    font-weight: bolder;
+    background-image: linear-gradient(#F9E79F, gold);
+    margin: 2px;
+    border-radius: 10px;
+    height: 40px;
+    
+}
+
+button {
+  margin: 5px;
+    font-family: arial;
+    
+}
+
+ul li p {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social{
+    margin: 25px;
+}
+
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 11px;
+    font-family: arial;
+}
+
+input{ font-size: 10px; font-family: monospace; }
+
