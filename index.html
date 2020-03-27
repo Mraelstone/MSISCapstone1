@@ -16,8 +16,8 @@
 <header>
   <div>
     <p class="rightpad rightalign">Welcome, Stephanie Mohler</p>
-                          
-                    
+
+
       <img class="leftpad" src="images/CMS-logo.png" alt="cms logo" height="70">
   </div>
   <div class="container col color1">
@@ -51,6 +51,9 @@
           <li class="nav-item doublepad">
               <a class="navlink" href="index.html"><p class="centeralign">Outreach &<br>Education</p></a>
           </li>
+          <li class="nav-item doublepad">
+              <a class="navlink" href="demo.html"><p class="centeralign">Demo</p></a>
+          </li>
         </ul>
     </div>
     </nav>
@@ -61,7 +64,7 @@
 
 
   <div class="row">
-    
+
         <div class="container">
 
       <hr>
@@ -70,10 +73,10 @@
 
           <div id="newPersonApp">
             <form @submit.prevent="handleSubmit">
-                
+
                 <br>
-    
-                
+
+
 
                 <label for="inputCellPhone" class="col-form-label">1. Your Medicare Number</label>
 
@@ -81,60 +84,60 @@
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="###########" v-model="recordPerson.cellPhone">
                 </div>
 
-                <br>                
+                <br>
 
                 <label for="inputActiveMember" class="col-form-label">2. Do you wish to sign up for Medicare Part B (Medical Insurance)?</label>
-                
+
                 <div>
                   <input type="checkbox" checked="checked">
                     <span class="checkmark"></span>
 
                 </div>
-                
+
                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">3a. Last Name</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone"d>
                 </div>
-                
+
                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">3b. First Name</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">3c. Middle Name</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">4. Mailing Address (Number and Street, P.O. Box, or Route</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">5a. City</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">5b. State</label><br>
-                
+
                 <select>
 	<option value="AL">Alabama</option>
 	<option value="AK">Alaska</option>
@@ -187,27 +190,27 @@
 	<option value="WV">West Virginia</option>
 	<option value="WI">Wisconsin</option>
 	<option value="WY">Wyoming</option>
-</select>				
-			
+</select>
+
                 <br>
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">5c. Zip Code</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="#####" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">6. Phone Number (including area code)</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="###########" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">7. Written Signature (DO NOT PRINT)</label>
 
                 <div class="container">
@@ -215,17 +218,17 @@
                     <span class="checkmark"></span>
 
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">8. Date Signed</label>
 
                 <div>
                   <input type="date" class="form-control" id="inputCellPhoneNumber" placeholder="Cell Phone Number" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-               
+
                 <label for="inputCellPhone" class="col-form-label">9. Signature of Witness</label>
 
                 <div>
@@ -233,32 +236,32 @@
                     <span class="checkmark"></span>
 
                 </div>
-               
-                
+
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">10. Date Signed</label>
 
                 <div>
                   <input type="date" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">11. Address of Witness</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                                                 <br>
-                
+
                 <label for="inputCellPhone" class="col-form-label">12. Remarks</label>
 
                 <div>
                   <input type="text" class="form-control" id="inputCellPhoneNumber" placeholder="" v-model="recordPerson.cellPhone">
                 </div>
-                
+
                 <br> <br>
 
                 <nav class="navbar navbar-expand-md navbar-light">
@@ -271,8 +274,8 @@
         </ul>
     </div>
     </nav>
-                
-                
+
+
             </form>
 
     </div>
