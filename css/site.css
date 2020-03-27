@@ -131,6 +131,11 @@ li {
     
 }
 
+submit {
+    background-color: black;
+    color: white;
+}
+
 button {
   margin: 5px;
     font-family: arial;
